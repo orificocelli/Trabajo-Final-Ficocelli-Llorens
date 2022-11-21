@@ -41,17 +41,8 @@ h6 {
     }
     footer {
         background-color: rgba(97, 45, 10, 0.89); 
-        text-align: justify;
     }
-    .footer div nav ul li a { 
-        list-style-type: none;
-        color: white;
-        text-decoration: none;
-    }
-    .direction p { 
-        text-align: right;
-    } 
-   
+    
    .link-propio { 
     color: white;
     }
@@ -77,4 +68,12 @@ h6 {
     .carousel-mio {
         margin: auto;
         margin-bottom: 5%;
+    }
+    .boton   {
+       color: white;
+       background-color: rgba(223, 70, 9, 0.705);
+       border: rgba(223, 70, 9, 0.705);
+    }
+    .pfoot {
+    text-align: left;
     }
