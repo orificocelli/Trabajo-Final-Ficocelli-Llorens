@@ -6,28 +6,33 @@ p {
     color: white;
     font-size: 25px;
     text-align: center;
-    font-family: zen kaku gothic new;
+    font-family: Red Hat Display;
+    font-weight: light 300;
      }
  h1 { 
     color: white;
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
-    font-family: zen kaku gothic new;
-    font-weight: 400;
+    font-family: Nanum Myeongjo;
+    font-weight: 700;
+    font-style: italic;
     }
  h2 { 
     color: #ffffff;
     font-size: 60px;
     text-align: center;
-    font-family: zen kaku gothic new;
-    font-weight: 500;
+    font-family: Nanum Myeongjo;
+    font-weight: 700;
+    font-style: italic;
     } 
 
 h6 {
     color: white;
     font-size: 30px;
     text-align: left;
-    font-family: zen kaku gothic new;
+    font-family: Red Hat Display;
+    font-weight: 400;
+    font-style: italic;
     }
     section nav ul li a{ 
         text-decoration: none;
@@ -62,7 +67,7 @@ h6 {
     .img_tam img {
         width: 30%;
         height: 30%;
-        margin-bottom: 5%;
+        margin-bottom: 10px;
     }
 
     .carousel-mio {
@@ -74,6 +79,34 @@ h6 {
        background-color: rgba(223, 70, 9, 0.705);
        border: rgba(223, 70, 9, 0.705);
     }
+    .boton:hover {
+        background-color: rgb(73, 28, 7);
+     }
     .pfoot {
     text-align: left;
+    font-family:  Red Hat Display;
+    font-weight: light 300;
+    }
+    .header {
+    color: #d66a05;
+    font-size: 27px;
+    padding: 10px;
+    }
+
+    .bigicon {
+    font-size: 35px;
+    color: #4d2c07;
+    }
+    
+    .btn { 
+        background-color:  rgba(223, 70, 9, 0.705);
+        color: white;
+        margin-bottom: 10px;
+    }
+    .btn:hover { 
+        background-color:rgba(73 28 7);
+        color: white;
+    }
+    .form  {
+       margin-left: 15%;
     }
